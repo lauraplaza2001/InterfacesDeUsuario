@@ -8,10 +8,47 @@
 
 <form action="" >
     <p>
-    <label for="username">Username:</label>
-    <input type="text" name="username" id="username" title='Introduce
+    <label for="name">Name:</label>
+    <input type="text" required="required" name="name" id="name" title='Introduce
     your name' autocomplete="name"/>
     </p>
+    <p>
+        <label for="surname">Surname:</label>
+        <input type="text" required="required"  name="surname" id="surname" title='Introduce
+        your surname' autocomplete="surname"/>
+    </p>
+
+    <p>
+        <label for="fechaNacimiento">Fecha de Nacimiento:</label>
+        <input type="date" required="required" name="fechaNacimiento" id="fechaNacimiento" title='Introduce
+        your birth'/>
+    </p>
+
+    <p>
+        <label for="email">Email:</label>
+        <input type="text" required="required" name="email" id="email" title='Introduce
+        your email' autocomplete="email"/>
+    </p>
+
+    <p>
+        <label for="nTelefono">Nº Teléfono:</label>
+        <input type="tel" name="nTelefono" id="nTelefono" title='Introduce
+        your numTelefono' />
+    </p>
+
+    <p>
+        <label for="password">Contraseña:</label>
+        <input type="password" required="required" name="password" id="password" title='Introduce
+        your password' />
+    </p>
+
+    <p>
+        <label for="color"> Color Favorito:</label>
+        <input type="color" name="color" id="color" title='Introduce
+        your favourite colour' />
+    </p>
+
+
     <input type="submit" value="Submit" />
     </form>
 
